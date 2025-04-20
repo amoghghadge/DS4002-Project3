@@ -2,8 +2,8 @@
 
 ## Repository Contents
 This repository contains the following contents:
-- ***SCRIPTS***: this folder contains all scripts used to perform the EDA and pre-processing steps, build our CNN model, and generate visualizations.
-- ***DATA***: this folder contains instructions to obtain the images used to train our CNN model and the dataset of corresponding labels for each image specifying the flower type. It also houses an appendix of our data and visualizations. 
+- ***SCRIPTS***: this folder contains all scripts used to perform the EDA and pre-processing steps, build our CNN model to classify images, and generate visualizations.
+- ***DATA***: this folder contains instructions to obtain the images used to train our CNN model and two datasets of corresponding labels for each image specifying the flower type. The original dataset of flower type labels is called 'flowerimagelabels.csv' and contains a numeric code for each type of flower, while 'label_to_name.csv' contains the actual names of the flowers in our image data. It also houses an appendix of our data and visualizations. 
 - ***OUTPUT***: this folder contains outputs produced from our EDA and building our CNN model, such as tables and graphs. 
 
 ### Section 1: Software and platform section
