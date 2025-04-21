@@ -2,9 +2,9 @@
 
 ## Repository Contents
 This repository contains the following contents:
-- ***SCRIPTS***: this folder contains all scripts used to perform the EDA and pre-processing steps, build our CNN model to classify images, and generate visualizations.
-- ***DATA***: this folder contains instructions to obtain the images used to train our CNN model and two datasets of corresponding labels for each image specifying the flower type. The original dataset of flower type labels is called 'flowerimagelabels.csv' and contains a numeric code for each type of flower, while 'label_to_name.csv' contains the actual names of the flowers in our image data. It also houses an appendix of our data and visualizations. 
-- ***OUTPUT***: this folder contains outputs produced from our EDA and building our CNN model, such as tables and graphs. 
+- ***SCRIPTS***: this folder contains all scripts used to perform the EDA and pre-processing steps, build our CNN model to classify flower images, and generate visualizations.
+- ***DATA***: this folder contains instructions to obtain the images used to train our CNN model, two datasets of corresponding labels for each image specifying the flower type, and an appendix of our data and visualizations. The original dataset of flower type labels is called 'flowerimagelabels.csv' and contains a numeric code for each type of flower, while 'label_to_name.csv' contains the actual names of the flowers in our image data. 
+- ***OUTPUT***: this folder contains visualizations produced from our EDA and building our CNN model.
 
 ### Section 1: Software and platform section
 
@@ -31,11 +31,11 @@ All members of this project used Mac as their platform.
 ##### **2. Perform Exploratory Data Analysis (EDA)**  
    - Within the SCRIPTS folder, locate 'project_3_eda.ipynb' to perform the EDA. (Note: the following steps are carried out within this script)
    - Install necessary Python libraries: tarfile, PIL, matplotlib, seaborn, pandas, numpy, tempfile, shutil
-   - Load in the images and image label dataset to collect image information.
+   - Load in the images and image label dataset to collect image information. (Note: use 'label_to_name.csv' dataset within the DATA folder to see the names of flower types)
    - Create the following visualizations: (1) Image Width & Height Distribution (log scale) (2) Image Area Distribution (3) Aspect Ratio (width/height) Distribution (4) Flower Class Label Distribution (5) Random Sample Images
 
 ##### **3. Preprocessing Steps**  
-   - Within the SCRIPTS folder, locate (filename) to prepare the data to create our CNN model. (Note: the rest of the reproducibility steps for this project are performed within this script)
+   - Within the SCRIPTS folder, locate 'data_analysis.ipynb' to prepare the data to create our CNN model. (Note: the rest of the reproducibility steps for this project are performed within this script)
    - Resize all images to 224x224 pixels to standardize image inputs.
    - Create 4 datasets per image based on its orientation: the original image and three rotated versions at a 90° angle, a 120° angle, and a 270° angle.
 
