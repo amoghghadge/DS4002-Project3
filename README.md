@@ -19,7 +19,7 @@ Python Packages used: tarfile, PIL, matplotlib, seaborn, pandas, numpy, tempfile
 All members of this project used Mac as their platform. 
 
 ### Section 2: Documentation Map
-(In this section, you should provide an outline or tree illustrating the hierarchy of folders and subfolders contained in your Project Folder, and listing the files stored in each folder or subfolder.)***
+
 
 ### Section 3: Reproduction Steps 
 
