@@ -13,7 +13,7 @@ For this project, we used python as the primary language for performing our EDA 
 
 ***Packages***:
 
-Python Packages used: tarfile, PIL, matplotlib, seaborn, pandas, numpy, tempfile, shutil
+Python Packages used: tarfile, PIL, matplotlib, seaborn, pandas, numpy, tempfile, shutil, tensorflow, time, sklearn, 
 
 ***Platform***: 
 All members of this project used Mac as their platform. 
@@ -38,13 +38,13 @@ All members of this project used Mac as their platform.
 ##### **3. Preprocessing Steps**  
    - Within the SCRIPTS folder, locate 'data_analysis.ipynb' to prepare the data to create our CNN model. (Note: the rest of the reproducibility steps for this project are performed within this script)
    - Resize all images to 224x224 pixels to standardize image inputs.
+   - Split the data into 70% for training, 15% for validation, and the remaining 15% for testing.
    - Create 4 datasets per image based on its orientation: the original image and three rotated versions at a 90° angle, a 120° angle, and a 270° angle.
 
 ##### **4. Train CNN Model**  
-   - Continuing to work within the (filename) script, implement a lightweight CNN architecture with three convolutional layers (32, 64, and 128 filters) with 3x3 kernels followed by ReLU activation, batch normalization, and 2x2 max pooling.
-   - Split the data into 70% for training, 15% for validation, and the remaining 15% for testing.
+   - Continuing to work within the 'data_analysis.ipynb' script, create a lightweight CNN model with three convolutional layers (32, 64, and 128 filters) with 3x3 kernels followed by ReLU activation, batch normalization, and 2x2 max pooling. Then create a model that is able to handle rotations.
    - Train the model for 30 epochs using the Adam optimizer, focusing on comparing model performance across the four orientation datasets.
 
 ##### **5. Evaluate Model Performance**  
-   - Evaluate the model perofmrance by obtaining its accuracy.
+   - Evaluate perofmrance of the models by obtaining its accuracy.
    - Achieve 80% accuracy of correct classifications regardless of image orientation in order to answer our research question.
