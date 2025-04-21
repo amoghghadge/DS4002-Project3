@@ -19,7 +19,8 @@ Python Packages used: tarfile, PIL, matplotlib, seaborn, pandas, numpy, tempfile
 All members of this project used Mac as their platform. 
 
 ### Section 2: Documentation Map
-![Project 3 Repository Map]([path/to/your/image.png](https://docs.google.com/drawings/d/1f6WOTYt-s1zZXnSH0qJC_r7lCfldAcbPiwvoNxkFZEo/edit?usp=sharing)
+![Project 3 GitHub Outline](https://github.com/user-attachments/assets/4e633b4a-eb5d-49cc-84bc-4f39b9362996)
+
 
 ### Section 3: Reproduction Steps 
 
